@@ -1,0 +1,80 @@
+.op-5 {
+    opacity: 1;
+}
+
+.op-4 {
+    opacity: .75;
+}
+
+.op-3 {
+    opacity: .50;
+}
+
+.op-2 {
+    opacity: .25;
+}
+
+.op-1 {
+    opacity: 0;
+}
+
+.icon {
+    height: 80px;
+}
+
+.bg-black {
+    background: #000;
+}
+
+#quote {
+    background-image: url('../img/bg/bg-quote.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.subtitle {
+    font-size: 2.4rem;
+}
+
+.faq-title {
+    font-size: 1.4rem;
+}
+
+.navbar.fixed-top {
+    animation: navbar-fixed-top .3s linear;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+@keyframes navbar-fixed-top {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media(max-width:767px) {
+    .display-4 {
+        font-size: 2.6rem;
+    }
+
+    #banner .lead {
+        font-size: 1.1rem;
+    }
+
+    .icon {
+        height: 60px;
+    }
+
+    #advantages .col-md-6 p {
+        font-size: 14px;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+}
